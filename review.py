@@ -1,3 +1,5 @@
+# KEY: Don't forget your comments ! :-(
+
 def main():
     #prob1()
     #prob2()
@@ -8,10 +10,11 @@ def main():
 
 def prob1():
     userInput= ""
+    # KEY: You only have to check for one case on input. See below.
     while True:
-        if userInput=="Q":
-            break
-        if userInput=="q":
+        #if userInput=="Q":
+        #    break
+        if userInput.lower()=="q":
             break
         userInput= input("Enter somthing that makes you happy")
         print(userInput)
@@ -25,6 +28,8 @@ def prob2_helper(num1,num2,num3, operation):
     elif operation == 'prod':
         print("The product is",int(num1*num2*num3))
     elif operation == 'avg':
+        # KEY: Because of order of operations, division performed before addition so you need to use parenthesis so
+        # numbers get added first, then divided by 3
         print('The average it',int(num1+num2+num3/3))
     else:
         print("error")

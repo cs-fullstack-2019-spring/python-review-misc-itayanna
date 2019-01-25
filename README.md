@@ -1,3 +1,8 @@
+
+### KEY: Great job but see problem 2 note. Your average calculation incorrect but I gave u the points
+### See 'Operator Precedence' online for more info
+### Don't forget comments! :-(
+
 # Python Review of Misc Topics - JavaScript/Python comparison, Loops, Functions
 
 ### Problem 1:
